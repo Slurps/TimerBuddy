@@ -7,5 +7,7 @@
     <string name="title_activity_game">GameActivity</string>
     <string name="title_activity_credits">CreditsActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_hero">HeroActivity</string>
+    <string name="title_activity_skill_item">SkillItemActivity</string>
 
 </resources>
