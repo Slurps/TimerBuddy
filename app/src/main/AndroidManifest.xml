@@ -24,6 +24,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainMenuActivity" />
         </activity>
+        <activity
+            android:name=".HeroActivity"
+            android:label="@string/title_activity_hero"
+            android:parentActivityName=".GameActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doterbaddeh.timerbuddy.GameActivity" />
+        </activity>
+        <activity
+            android:name=".SkillItemActivity"
+            android:label="@string/title_activity_skill_item"
+            android:parentActivityName=".GameActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doterbaddeh.timerbuddy.GameActivity" />
+        </activity>
     </application>
 
 </manifest>
