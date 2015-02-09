@@ -9,5 +9,6 @@
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="title_activity_hero">HeroActivity</string>
     <string name="title_activity_skill_item">SkillItemActivity</string>
+    <string name="title_activity_testerino">testerino</string>
 
 </resources>
