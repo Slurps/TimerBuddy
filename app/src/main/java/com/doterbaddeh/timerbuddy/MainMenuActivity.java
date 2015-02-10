@@ -1,9 +1,12 @@
 package com.doterbaddeh.timerbuddy;
 
+import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainMenuActivity extends ActionBarActivity {
@@ -11,7 +14,7 @@ public class MainMenuActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_menu);
     }
 
 
@@ -36,4 +39,29 @@ public class MainMenuActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    /*
+    Starts the GameActivity-activity
+     */
+    public void openGame(View view){
+        Intent intent = new Intent(this, GameActivity.class);
+        startActivity(intent);
+    }
+
+    /*
+    Starts the CreditsActivity-activity
+     */
+    public void openCredits(View view){
+        Intent intent = new Intent(this, CreditsActivity.class);
+        startActivity(intent);
+    }
+
+    /*
+    Starts the GameActivity-activity
+     */
+    public void openSettings(View view){
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
 }
